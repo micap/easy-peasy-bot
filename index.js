@@ -118,15 +118,3 @@ controller.hears(['flights'], 'direct_message', apiai.hears, function (bot, mess
 //        bot.reply(message, 'I heard you loud and clear boss.');
 //    });
 //});
-
-
-name: Easy Peasy Bot
-description: A simple node.js bot
-avatar: avatar.png
-config:
-  - name: APIAI_TOKEN
-    friendly_name: API.AI developer token
-    info: This is utterly necessary
-    type: secret
-    default: NOT A VALID TOKEN
-    global: true
